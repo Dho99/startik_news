@@ -1,0 +1,8 @@
+/* MD Breakpoints */
+@media screen and (width < 1000px) {
+    #heroCard{
+        width: 100%;
+    }
+
+
+}
