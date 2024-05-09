@@ -11,4 +11,5 @@ use App\Http\Controllers\ViewController;
 Route::controller(ViewController::class)->middleware('web')->group(function(){
     Route::get('/','home');
     Route::get('/post','show');
+    Route::get('/search','search');
 });

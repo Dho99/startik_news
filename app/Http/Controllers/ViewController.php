@@ -19,4 +19,11 @@ class ViewController extends Controller
             'title' => 'Post'
         ]);
     }
+
+    public function search()
+    {
+        return view('Pages.SearchResult',[
+            'title' => 'Search'
+        ]);
+    }
 }

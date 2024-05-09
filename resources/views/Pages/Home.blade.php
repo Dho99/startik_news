@@ -6,15 +6,33 @@
 @section('content')
     <section class="">
 
-        <div id="hero" class="mt-3">
-            <a class="card" id="heroCard" href="">
-                <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title fw-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
-                        id
-                        omnis aliquam animi eos ad! Natus minima quis laboriosam quia.</h5>
-                </div>
-            </a>
+        <div id="hero" class="mt-3 swiperFade">
+            <div class="swiper-wrapper">
+                <a class="card swiper-slide cardSlide" href="">
+                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Slide 1</h5>
+                    </div>
+                </a>
+                <a class="card swiper-slide cardSlide" href="">
+                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Slide 2</h5>
+                    </div>
+                </a>
+                <a class="card swiper-slide cardSlide" href="">
+                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Slide 3</h5>
+                    </div>
+                </a>
+                <a class="card swiper-slide cardSlide" href="">
+                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Slide 4</h5>
+                    </div>
+                </a>
+            </div>
         </div>
 
 
@@ -27,7 +45,7 @@
             <div id="latestNewsCardWrapper" class="swiper my-3">
                 <div class="swiper-wrapper">
                     <a class="card swiper-slide" id="latestNewsCard" href="">
-                        <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
+                        <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Explicabo
@@ -35,7 +53,7 @@
                         </div>
                     </a>
                     <a class="card swiper-slide" id="latestNewsCard" href="">
-                        <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
+                        <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Explicabo
@@ -43,7 +61,7 @@
                         </div>
                     </a>
                     <a class="card swiper-slide" id="latestNewsCard" href="">
-                        <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
+                        <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Explicabo
@@ -51,7 +69,7 @@
                         </div>
                     </a>
                     <a class="card swiper-slide" id="latestNewsCard" href="">
-                        <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
+                        <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Explicabo
@@ -59,7 +77,7 @@
                         </div>
                     </a>
                     <a class="card swiper-slide" id="latestNewsCard" href="">
-                        <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
+                        <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Explicabo
@@ -67,7 +85,7 @@
                         </div>
                     </a>
                     <a class="card swiper-slide" id="latestNewsCard" href="">
-                        <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
+                        <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Explicabo
@@ -93,7 +111,7 @@
                         <a href="" class="text-decoration-none row rounded shadow-lg border w-full latestVideoCard"
                             id="latestVideoCard">
                             <div class="col-4 m-0 p-0">
-                                <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="img-fluid rounded-start"
+                                <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}" class="img-fluid rounded-start"
                                     alt="">
                             </div>
                             <div class="col-8 my-4">
@@ -122,7 +140,7 @@
                         <div class="col-lg-4 col-6">
                             <a href="" class="">
                                 <div class="card postCategoryCard">
-                                    <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
+                                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
                                         class="card-img-top img-fluid" alt="...">
                                     <div class="card-body p-1 mt-1">
                                         <p class="card-text postCategoryCardText">Some quick example text to build on the
@@ -135,7 +153,7 @@
                         <div class="col-lg-4 col-6">
                             <a href="" class="">
                                 <div class="card postCategoryCard">
-                                    <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
+                                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
                                         class="card-img-top img-fluid" alt="...">
                                     <div class="card-body p-1 mt-1">
                                         <p class="card-text postCategoryCardText">Some quick example text to build on the
@@ -148,7 +166,7 @@
                         <div class="col-lg-4 col-6">
                             <a href="" class="">
                                 <div class="card postCategoryCard">
-                                    <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
+                                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
                                         class="card-img-top img-fluid" alt="...">
                                     <div class="card-body p-1 mt-1">
                                         <p class="card-text postCategoryCardText">Some quick example text to build on the
@@ -161,7 +179,7 @@
                         <div class="col-lg-4 col-6">
                             <a href="" class="">
                                 <div class="card postCategoryCard">
-                                    <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
+                                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
                                         class="card-img-top img-fluid" alt="...">
                                     <div class="card-body p-1 mt-1">
                                         <p class="card-text postCategoryCardText">Some quick example text to build on the
@@ -174,7 +192,7 @@
                         <div class="col-lg-4 col-6">
                             <a href="" class="">
                                 <div class="card postCategoryCard">
-                                    <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
+                                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
                                         class="card-img-top img-fluid" alt="...">
                                     <div class="card-body p-1 mt-1">
                                         <p class="card-text postCategoryCardText">Some quick example text to build on the
@@ -187,7 +205,7 @@
                         <div class="col-lg-4 col-6">
                             <a href="" class="">
                                 <div class="card postCategoryCard">
-                                    <img src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
+                                    <img loading="lazy" src="{{ asset('assets/Static/Images/ktphaha.jpg') }}"
                                         class="card-img-top img-fluid" alt="...">
                                     <div class="card-body p-1 mt-1">
                                         <p class="card-text postCategoryCardText">Some quick example text to build on the
@@ -201,9 +219,6 @@
                 </div>
 
             </div>
-
-
-
 
 
             <div class="col-lg-5 mt-5">
@@ -254,7 +269,17 @@
             direction: 'horizontal',
             slidesPerView: 'auto',
             autoplay: {
-                delay: 1000,
+                delay: 3000,
+                pauseOnMouseEnter: true
+            }
+        });
+
+        const fadeSwiper = new Swiper('.swiperFade', {
+            direction: 'horizontal',
+            loop: true,
+            effect: 'fade',
+            autoplay: {
+                delay: 5000,
                 pauseOnMouseEnter: true
             }
         });

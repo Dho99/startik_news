@@ -10,3 +10,25 @@
     color: #fff;
     text-decoration: none;
 }
+
+.relatedVideosCard{
+    width: auto;
+    max-width: 650px;
+    max-height: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.relatedVideosCardImage{
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.relatedVideosCardExcerpt{
+    max-height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
